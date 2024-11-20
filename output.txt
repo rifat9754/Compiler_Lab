@@ -1,0 +1,89 @@
+Single-line Comment (line   2) --> // A simple example of my programming language
+Data Type      (line   5) --> integer_number
+Identifier     (line   5) --> x
+Operator       (line   5) --> =
+Integer Number (line   5) --> 97
+Data Type      (line   6) --> integer_number
+Identifier     (line   6) --> y
+Operator       (line   6) --> =
+Integer Number (line   6) --> 98
+Data Type      (line   8) --> floating_number
+Identifier     (line   8) --> z
+Operator       (line   8) --> =
+Float Number   (line   8) --> 97.97
+Data Type      (line   9) --> letter
+Identifier     (line   9) --> c
+Identifier     (line   9) --> assign
+Character      (line   9) --> 'r'
+Keyword        (line  11) --> display
+String         (line  11) --> "Compiler"
+Single-line Comment (line  13) --> // for loop
+Data Type      (line  15) --> integer_number
+Identifier     (line  15) --> a
+Keyword        (line  17) --> loop
+Keyword        (line  17) --> start
+Special Char   (line  17) --> :
+Integer Number (line  17) --> 1
+Keyword        (line  17) --> condition
+Special Char   (line  17) --> :
+Identifier     (line  17) --> a
+Operator       (line  17) --> <
+Integer Number (line  17) --> 10
+Special Char   (line  17) --> :
+Keyword        (line  17) --> increment
+Keyword        (line  17) --> by
+Integer Number (line  17) --> 1
+Delimiter      (line  17) --> {
+Keyword        (line  18) --> when
+Identifier     (line  18) --> a
+Identifier     (line  18) --> is
+Keyword        (line  18) --> greater
+Keyword        (line  18) --> than
+Integer Number (line  18) --> 5
+Delimiter      (line  18) --> {
+Keyword        (line  19) --> display
+Identifier     (line  19) --> a
+Delimiter      (line  20) --> }
+Delimiter      (line  21) --> }
+Single-line Comment (line  23) --> //conditional statement
+Data Type      (line  25) --> integer_number
+Identifier     (line  25) --> b
+Keyword        (line  27) --> when
+Identifier     (line  27) --> b
+Keyword        (line  27) --> greater
+Keyword        (line  27) --> than
+Integer Number (line  27) --> 10
+Delimiter      (line  27) --> {
+Keyword        (line  28) --> display
+String         (line  28) --> "a is greater than 10"
+Delimiter      (line  29) --> }
+Keyword        (line  30) --> or
+Keyword        (line  30) --> otherwise
+Identifier     (line  30) --> a
+Keyword        (line  30) --> identical
+Integer Number (line  30) --> 10
+Delimiter      (line  30) --> {
+Keyword        (line  31) --> display
+String         (line  31) --> "a is equal to 10"
+Delimiter      (line  32) --> }
+Keyword        (line  33) --> or
+Delimiter      (line  33) --> {
+Keyword        (line  34) --> display
+String         (line  34) --> "a is less than 10"
+Delimiter      (line  35) --> }
+Syntax Error   (line  37) --> Unrecognized token '.'
+
+Summary:
+------------------------------------
+Keywords         --> 20
+Identifiers      --> 13
+Numbers          --> 9
+  --> Integers   --> 8
+  --> Floats     --> 1
+Strings          --> 4
+Special Chars    --> 3
+Delimiters       --> 10
+Operators        --> 4
+Datatypes        --> 6
+Comments         --> 3
+------------------------------------

@@ -1,0 +1,40 @@
+
+// A simple example of my programming language
+
+
+integer_number x = 97
+integer_number y = 98
+
+floating_number z = 97.97
+letter c assign 'r'
+
+display "Compiler"
+
+// for loop
+
+integer_number a
+
+loop start: 1 condition: a < 10 : increment by 1 {
+    when a is greater than 5 {
+        display a
+    }
+}
+
+//conditional statement
+
+integer_number b
+
+when b  greater than 10  {
+    display "a is greater than 10"
+}
+or otherwise a identical 10 {
+    display "a is equal to 10"
+}
+or {
+    display "a is less than 10"
+}
+
+.
+
+
+
